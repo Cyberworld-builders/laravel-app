@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>About us</h1>
+@extends('layout')
 
-    <ul>
-      <li><a href="contact">contact </a> </li>
-      <li><a href="about">About Us </a> </li>
-    </ul>
-  </body>
-</html>
+@section('title', 'About Me')
+
+@section('content')
+  <h1>About Me</h1>
+
+  <p>
+    Woah check it out, it me.
+  </p>
+@endsection
